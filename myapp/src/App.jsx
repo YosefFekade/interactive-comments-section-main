@@ -23,20 +23,6 @@ function App() {
       />)
       })
       }
-
-      {/* <Comment 
-        vote={data.comments[0].score}
-        image={data.comments[0].user.image.png}
-        name={data.comments[0].user.username}
-        content={data.comments[0].content}
-        month={data.comments[0].createdAt}/>
-      <Comment 
-        vote={data.comments[1].score}
-        image={data.comments[1].user.image.png}
-        name={data.comments[1].user.username}
-        content={data.comments[1].content}
-        month={data.comments[1].createdAt}/> */}
-
         <div className='subContainer'>
           {/* {data.comments[1].replies.map((replay,index)=>{
             return(<Sub 
@@ -45,7 +31,7 @@ function App() {
             sname={replay.user.username}
             Month={replay.createdAt}
             content={replay.content}
-            />)
+            />)  
           })} */}
           <Sub
           Vote={data.comments[1].replies[0].score}
